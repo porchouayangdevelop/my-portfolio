@@ -9,9 +9,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-center md:text-left">
             <p className="text-muted-foreground">
-              © {currentYear} Porchouayang VAJONG. Built with{" "}
-              <Heart className="inline w-4 h-4 text-primary fill-primary" /> using React &
-              TypeScript
+              © {currentYear} Porchouayang VAJONG
+              {/* Built with{" "} */}
+              {/* <Heart className="inline w-4 h-4 text-primary fill-primary" /> using React &
+              TypeScript */}
             </p>
           </div>
 

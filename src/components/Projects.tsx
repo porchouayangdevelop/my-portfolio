@@ -19,7 +19,7 @@ const Projects = () => {
       title: "Task Management App",
       description:
         "A team productivity tool with drag-and-drop boards, real-time collaboration via WebSocket, and role-based access control.",
-      tech: ["Next.js", "PostgreSQL", "Prisma", "WebSocket"],
+      tech: ["Vue.js", "Nuxtjs", "PostgreSQL", "Prisma", "WebSocket"],
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=300&fit=crop",
       fallback: "bg-gradient-to-br from-blue-500/20 to-purple-500/20",
       github: "#",

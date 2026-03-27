@@ -5,56 +5,61 @@ import ScrollReveal from "@/components/ScrollReveal";
 const Experience = () => {
   const workHistory = [
     {
-      company: "AGRICULATURAL PROMOTION BANK CO.. LTD",
-      position: "Senior Full Stack Developer",
+      company: "Agricultural Promotion Bank Co., Ltd",
+      position: "Junior Full Stack Developer",
       period: "2024 - Present",
       achievements: [
         "Led development of microservices architecture serving 1M+ users",
-        "Reduced application load time by 60% through optimization",
-        "Mentored team of 5 junior developers",
+        "Reduced application load time by 60% through performance optimization",
+        "Architected and deployed a [Report and Analytis transaction of customer service, Real-time Dashboard] using Vue and Node.js, resulting in a 25% increase in administrative efficiency",
+        "Designed and documented RESTful APIs using Fastify and TypeScript, implementing JWT-based authentication to ensure secure data exchange",
+        "CI/CD Implementation Streamlined deployment workflows by configuring GitHub Actions and Dockerizing microservices, cutting deployment time from 30 minutes to 5 minutes",
       ],
     },
     {
-      company: "AGRICULATURAL PROMOTION BANK CO.. LTD",
-      position: "Full Stack Developer",
+      company: "Agricultural Promotion Bank Co., Ltd",
+      position: "Core Banking System Technical Support",
       period: "2023 - 2024",
       achievements: [
-        "Built and deployed 15+ web applications using React and Node.js",
-        "Implemented CI/CD pipelines reducing deployment time by 40%",
-        "Collaborated with cross-functional teams on product development",
-      ],
-    },
-    {
-      company: "StartUp Labs",
-      position: "Junior Developer",
-      period: "2022 - 2023",
-      achievements: [
-        "Developed responsive front-end interfaces for mobile and web",
-        "Participated in agile development and code reviews",
-        "Contributed to open-source projects and internal tools",
+        "Provided technical support and troubleshooting for core banking system operations",
+        "Coordinated with vendors and internal teams to resolve system issues",
+        "Monitored system performance and ensured high availability of banking services",
+        "API Middleware Optimization: Troubleshot and resolved latency issues in the REST/SOAP API layers, improving the response time for mobile banking transactions.",
+        "Reduced End-of-Day (EOD) Processing Time",
+        "Data Integrity & Migration: Successfully executed complex data patching and reconciliation for month - end processing",
+        "System integration EKYC, OCR, Cardless NonCustomerFundTransfers"
       ],
     },
   ];
 
   const education = [
-    {
-      institution: "University of Technology",
-      degree: "Master of Computer Science",
-      period: "2016 - 2018",
-      achievements: [
-        "Specialized in Software Engineering and AI",
-        "GPA: 2.91",
-        "Thesis: Machine Learning Applications in Web Development",
-      ],
-    },
+    // {
+    //   institution: "University of Technology",
+    //   degree: "Master of Computer Science",
+    //   period: "2016 - 2018",
+    //   achievements: [
+    //     "Specialized in Software Engineering and AI",
+    //     "GPA: 2.91",
+    //     "Thesis: Machine Learning Applications in Web Development",
+    //   ],
+    // },
     {
       institution: "National University of Laos",
       degree: "Bachelor of Computer Science",
       period: "2014 - 2018",
       achievements: [
-        "Dean's List for academic excellence",
-        "President of Computer Science Club",
-        "Winner of University Hackathon 2015",
+        "Graduated with honors in Computer Science",
+        // "President of the Computer Science Club",
+        // "Winner of University Hackathon 2015",
+      ],
+    },
+    {
+      institution: "High School",
+      degree: "High School Diploma",
+      period: "2011 - 2014",
+      achievements: [
+        "Completed secondary education with strong academic performance",
+        "Active participant in science and technology activities",
       ],
     },
   ];

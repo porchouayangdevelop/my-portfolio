@@ -2,10 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import ScrollReveal from "@/components/ScrollReveal";
+import { TbBrandWhatsapp } from 'react-icons/tb'
+import { RiFacebookCircleFill } from 'react-icons/ri'
 
 const Contact = () => {
   const { toast } = useToast();
@@ -19,7 +21,9 @@ const Contact = () => {
 
   const contactInfo = [
     { icon: <Mail className="w-5 h-5" />, label: "Email", value: "porchouayang2016@gmail.com", href: "mailto:porchouayang2016@gmail.com" },
-    { icon: <Phone className="w-5 h-5" />, label: "Phone", value: "+8 (5620) 91-255-475", href: "tel:+8562055475" },
+    { icon: <Phone className="w-5 h-5" />, label: "Phone", value: "+(856) 20 91-255-475", href: "tel:+8562055475" },
+    { icon: <TbBrandWhatsapp className="w-5 h-5" />, label: "Whatsapp", value: "+(856) 20 91-255-475", href: "tel:+8562055475" },
+    { icon: <RiFacebookCircleFill className="w-5 h-5" />, label: "FaceBook", value: "Yang Por", href: "#" },
     { icon: <MapPin className="w-5 h-5" />, label: "Location", value: "Vientiane capital, LA", href: "#" },
   ];
 
