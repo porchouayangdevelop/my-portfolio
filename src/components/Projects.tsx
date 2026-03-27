@@ -6,61 +6,21 @@ import ScrollReveal from "@/components/ScrollReveal";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description:
-        "Built a scalable online store with cart management, Stripe payment integration, and a full admin dashboard for inventory and order tracking.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop",
-      fallback: "bg-gradient-to-br from-primary/20 to-blue-500/20",
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "Task Management App",
-      description:
-        "A team productivity tool with drag-and-drop boards, real-time collaboration via WebSocket, and role-based access control.",
-      tech: ["Vue.js", "Nuxtjs", "PostgreSQL", "Prisma", "WebSocket"],
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=300&fit=crop",
-      fallback: "bg-gradient-to-br from-blue-500/20 to-purple-500/20",
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "AI Content Generator",
-      description:
-        "Integrated OpenAI's API to generate blog posts, social captions, and marketing copy from user prompts with one-click export.",
-      tech: ["React", "Python", "FastAPI", "OpenAI"],
-      image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&h=300&fit=crop",
-      fallback: "bg-gradient-to-br from-purple-500/20 to-primary/20",
-      github: "#",
-      live: "#",
-    },
-    {
       title: "Analytics Dashboard",
       description:
         "Interactive data dashboard with D3.js charts, filterable reports, and CSV/PDF export — built for business intelligence teams.",
-      tech: ["Vue.js", "D3.js", "Express", "PostgreSQL"],
+      tech: ["Vue.js", "D3.js", "Fastify", "Typescript", "PostgreSQL"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=300&fit=crop",
       fallback: "bg-gradient-to-br from-green-500/20 to-primary/20",
       github: "#",
       live: "#",
     },
     {
-      title: "Social Media Platform",
+      title: "Traditional Medicine ERP & Service Platform",
       description:
-        "Full-stack social app with user profiles, post feeds, real-time chat, and Firebase-powered notifications and authentication.",
-      tech: ["React", "Firebase", "Redux", "Material-UI"],
-      image: "https://media.istockphoto.com/id/1206799135/photo/businessman-touching-icon-customer-global-networking-connection-on-virtual-screen-banking.webp?a=1&b=1&s=612x612&w=0&k=20&c=OkqDR01y62kUtLeb4IdcT7xVcP9F3wfFzBC7uymxCEI=",
-      fallback: "bg-gradient-to-br from-orange-500/20 to-primary/20",
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "Weather Forecast App",
-      description:
-        "Location-aware weather app with 7-day forecasts, hourly breakdowns, and severe weather alerts using the OpenWeather API.",
-      tech: ["React Native", "OpenWeather API", "Redux", "Maps"],
-      image: "https://images.unsplash.com/photo-1705077296278-d82dd5c8662f?q=80&w=809&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "a specialized management platform that digitizes the traditional herbal pharmacy. By integrating Real-time Inventory Tracking, Custom Formula Building, and Patient Consultation Records, the system empowers practitioners to focus on healing while the software handles the complex logistics of a modern apothecary",
+      tech: ["Vue", "Nuxtjs", "Typescript", "NuxtUI", "Tailwindcss", "Payment Gateway API", "Maps"],
+      image: "https://media.istockphoto.com/id/962094932/photo/doctor-surgeon-analyzing-patient-brain-testing-result-and-human-anatomy-on-technological.webp?a=1&b=1&s=612x612&w=0&k=20&c=PGsiYS5078SzuruZZJkG4uc0ZdWy4hSDM6HJJZs5RDk=",
       fallback: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20",
       github: "#",
       live: "#",
@@ -69,7 +29,7 @@ const Projects = () => {
       title: "Authentication & Authorization Base API",
       description:
         "A reusable auth foundation with OAuth2 via Authentik, JWT sessions, role-based permissions, and support for both MariaDB and PostgreSQL.",
-      tech: ["Fastify", "TypeScript", "Authentik OAuth2", "MariaDB", "PostgreSQL"],
+      tech: ["Fastify", "TypeScript", "Authentik OAuth2", "MariaDB", "Redis", "Web Socket"],
       image: "https://plus.unsplash.com/premium_photo-1661878265739-da90bc1af051?q=80&w=786&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       fallback: "bg-gradient-to-br from-red-500/20 to-orange-500/20",
       github: "#",
@@ -79,7 +39,7 @@ const Projects = () => {
       title: "Microservices Architecture",
       description:
         "Event-driven microservices system using Kafka for async messaging, Redis for caching, and AI integration — built for high-throughput distributed workloads.",
-      tech: ["Fastify", "TypeScript", "Spring Boot", "Apache Kafka", "Redis", "OpenClaw AI", "Mariadb", "PostgreSql"],
+      tech: ["Fastify", "TypeScript", "Spring Boot", "Apache Kafka", "Redis", "OpenClaw AI", "Mariadb", "PostgreSql", "MongoDB"],
       image: "https://plus.unsplash.com/premium_photo-1745622970146-60b44e7381de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fG1pY3Jvc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D",
       fallback: "bg-gradient-to-br from-violet-500/20 to-blue-500/20",
       github: "#",
